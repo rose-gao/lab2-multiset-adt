@@ -39,7 +39,7 @@ public class BSTMultiSet extends MultiSet {
      */
     @Override
     boolean isEmpty() {
-        return false;
+        return this.bst.isEmpty();
     }
 
     /**
